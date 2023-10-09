@@ -48,13 +48,12 @@ class Monitor
      */
     public function checkMemoryLeak(Callable $callBackFunction = null)
     {
+        if ($callBackFunction) {
+            $callBackFunction(memory_get_usage());
+        }
 
         if ((memory_get_usage() / $this->startMemory) >= (2*$this->allowedMemoryLeakPercentage / 100)) {
             {
-                if ($callBackFunction) {
-                    $callBackFunction(memory_get_usage());
-                }
-
                 if ($this->throwError) {
                     throw new MemoryReachLimitException("Memory leak by detected%\n start memory: {$this->startMemory} \n end memory: " . memory_get_usage());
                 }
