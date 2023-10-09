@@ -1,9 +1,9 @@
 {
-    "name": "alasaly/handle-infinite-loop",
+    "name": "alasaly/monitor-memory-leak",
     "description": "TODO",
     "autoload": {
         "psr-4": {
-            "Alasaly\\HandleInfinitLoop\\": "src/"
+            "Alasaly\\MonitorMemoryLeak\\": "src/"
         }
     },
     "authors": [
