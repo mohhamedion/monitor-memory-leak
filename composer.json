@@ -1,6 +1,6 @@
 {
     "name": "alasaly/monitor-memory-leak",
-    "description": "TODO",
+    "description": "Monitor memory leak in php",
     "autoload": {
         "psr-4": {
             "Alasaly\\MonitorMemoryLeak\\": "src/"
