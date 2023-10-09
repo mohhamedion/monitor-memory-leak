@@ -1,6 +1,8 @@
 {
     "name": "alasaly/monitor-memory-leak",
     "description": "Monitor memory leak in php",
+    "license": "MIT",
+    "type": "library",
     "autoload": {
         "psr-4": {
             "Alasaly\\MonitorMemoryLeak\\": "src/"
@@ -8,7 +10,7 @@
     },
     "authors": [
         {
-            "name": "Аль-Асали Мохамед Русланович",
+            "name": "Mohamad Alasaly",
             "email": "mohhamedion@gmail.com"
         }
     ],
