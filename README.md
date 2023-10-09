@@ -19,6 +19,10 @@ $monitor = new Monitor();
 //By default, it will throw exception if the memory is 100% over the memory allocated to PHP
 //You can modify the limits
 $monitor->setAllowedMemoryLeak(1000);
+
+//You can set this option to false if you only want to monitor memory without terminating the process
+$monitor->setThrowError(false);
+
 $data = [];
 while (true)
 {
