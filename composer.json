@@ -1,0 +1,16 @@
+{
+    "name": "alasaly/handle-infinite-loop",
+    "description": "TODO",
+    "autoload": {
+        "psr-4": {
+            "Alasaly\\HandleInfinitLoop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Аль-Асали Мохамед Русланович",
+            "email": "mohhamedion@gmail.com"
+        }
+    ],
+    "require": {}
+}
