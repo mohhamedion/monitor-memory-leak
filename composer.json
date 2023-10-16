@@ -3,7 +3,8 @@
     "description": "Monitor memory leak in php",
     "license": "MIT",
     "type": "library",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Alasaly\\MonitorMemoryLeak\\": "src/"
